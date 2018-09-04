@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
 import { AppContainer } from 'react-hot-loader';
+import $ from 'jquery';
+import popper from 'popper.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const render = (Component) => {
   ReactDOM.render(
